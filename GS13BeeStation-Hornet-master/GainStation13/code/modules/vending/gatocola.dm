@@ -1,8 +1,8 @@
 /obj/machinery/vending/gato
 	name = "GATO Vending Machine"
-	desc = "A GATO branded cola machine, a cute little cat is plastered onto it."
+	desc = "A GATO branded cola machine, a cute little cat is plastered onto the front of the vending machine."
 	icon = 'icons/obj/vending.dmi'
-	icon_state = "cola_black"
+	icon_state = "cola_gato"
 	product_slogans = "Meow~, time for some cola!"
 	vend_reply = "Meow~ Meow~"
 	products = list(

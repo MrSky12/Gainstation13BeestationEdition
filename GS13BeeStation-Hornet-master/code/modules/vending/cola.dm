@@ -42,10 +42,6 @@
 /obj/machinery/vending/cola/blue
 	icon_state = "Cola_Machine"
 
-/obj/machinery/vending/cola/black
-	icon_state = "cola_black"
-	light_color = LIGHT_COLOR_WHITE
-
 /obj/machinery/vending/cola/red
 	icon_state = "red_cola"
 	name = "\improper Space Cola Vendor"
