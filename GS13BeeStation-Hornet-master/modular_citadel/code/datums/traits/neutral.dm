@@ -52,6 +52,13 @@
 	var/active = FALSE
 	var/power = 0
 	var/cachedmoveCalc = 1
+
+/datum/quirk/lipoifier_immunity
+	name = "Lipoifier Immunity"
+	desc = "Your body is mostly immune to widening properties of Lipoifier chemical and its cheaper alternative: corn oil."
+	mob_trait = TRAIT_LIPOIFIER_IMMUNE
+	value = 0
+	category = CATEGORY_SEXUAL
 /*
 /datum/quirk/fluid_leak
 	name = "Leaky breasts"

@@ -688,6 +688,43 @@
 	desc = "Hgrgrhrhg cute."
 	icon_state = "flushplush"
 
+/obj/item/toy/plush/metha
+	name = "Magical Captain Plushie"
+	desc = "A NEW GATO TOY FROM GATO CORPORATION, FEEL THE MAGIC OF THIS COOL TOY!"
+	icon_state = "metha"
+	item_state = "metha"
+	attack_verb = list("fattened","Metha'd", "Brigged")
+	gender = FEMALE
+
+/obj/item/toy/plush/amogus
+	name = "Amingas Prushie"
+	desc = "Yoo it mogngas sunsies. hehee"
+	icon_state = "yongas"
+	item_state = "yongas"
+	attack_verb = list("Sussied")
+	gender = MALE
+
+/obj/item/toy/plush/catgirl/fi
+	desc = "An adorable stuffed toy that resembles a very enthusiastic catgirl. Its smug aura mocks you."
+	icon_state = "fi"
+	item_state = "fi"
+	attack_verb = list("pranked","nyuh'd","science'd","hugged")
+
+
+/obj/item/toy/plush/tertia
+	desc = "An adorable stuffed toy that resembles a mischevious yet helpful slime-goat. It seems to have a mysterious smirk."
+	icon_state = "tertia"
+	item_state = "tertia"
+	attack_verb = list("glorped","hugged","experimented","baaaah'd")
+	squeak_override = list('sound/effects/blobattack.ogg' = 1)
+
+/obj/item/toy/plush/primus
+	desc = "An adorable stuffed toy that resembles a mad scientist goat. Its hair seems to be quite messy."
+	icon_state = "primus"
+	item_state = "primus"
+	attack_verb = list("glorped","hugged","experimented","baaaah'd")
+	squeak_override = list('sound/effects/blobattack.ogg' = 1)
+
 /////////////////
 //DONATOR ITEMS//
 /////////////////
