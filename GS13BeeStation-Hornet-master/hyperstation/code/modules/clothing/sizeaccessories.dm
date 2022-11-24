@@ -1,5 +1,5 @@
 //Clothing vars and procs
-/obj/item/clothing	
+/obj/item/clothing
 	var/normalize_size = RESIZE_NORMAL //This number is used as the "normal" height people will be given when wearing one of these accessories
 	var/natural_size = null //The value of the wearer's body_size var in prefs. Unused for now.
 	var/recorded_size = null //the user's height prior to equipping
@@ -70,7 +70,7 @@
 //SynTech Wristband
 /obj/item/clothing/gloves/ring/syntech/band
 	name = "normalizer wristband"
-	desc = "An expensive technological wristband cast in SynTech purples with shimmering Kinaris golds. It will 'normalize' the size of the user to a specified height for approved work-conditions, as long as it is equipped. There is a small screen buzzing with information."
+	desc = "An expensive technological wristband cast in SynTech purples with shimmering GATO pinks. It will 'normalize' the size of the user to a specified height for approved work-conditions, as long as it is equipped. There is a small screen buzzing with information."
 	icon_state = "wristband"
 	item_state = "syntechband"
 
@@ -79,7 +79,7 @@
 //Syntech Pendant
 /obj/item/clothing/neck/syntech
 	name = "normalizer pendant"
-	desc = "A vibrant violet jewel cast in silvery-gold metals, sporting the elegance of Kinaris with SynTech prowess. It will 'normalize' the size of the user to a specified height for approved work-conditions, as long as it is equipped. The artificial violet gem inside twinkles ominously."
+	desc = "A vibrant violet jewel cast in silvery-gold metals, sporting the elegance of GATO with SynTech prowess. It will 'normalize' the size of the user to a specified height for approved work-conditions, as long as it is equipped. The artificial violet gem inside twinkles ominously."
 	icon = 'hyperstation/icons/obj/clothing/sizeaccessories.dmi'
 	icon_state = "pendant"
 	item_state = "pendant"

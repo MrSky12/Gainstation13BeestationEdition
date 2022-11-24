@@ -1,6 +1,6 @@
 /obj/item/clothing/under/rank/lambent
 	name = "Lambent's outfitting"
-	desc = "A Hyperwoven outfitting meant for a Kinaris Lambent. It's gilded colors and ultratech weaving speak highly about status."
+	desc = "A Hyperwoven outfitting meant for a GATO Lambent. It's pinkish colors and ultratech weaving speak highly about status."
 	icon = 'hyperstation/icons/obj/clothing/uniforms.dmi'
 	//alternate_worn_icon = 'hyperstation/icons/mobs/uniforms.dmi'
 	icon_state = "lambent"

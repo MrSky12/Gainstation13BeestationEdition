@@ -203,6 +203,12 @@
 	icon_state = "dromedary"
 	spawn_type = /obj/item/clothing/mask/cigarette/dromedary
 
+/obj/item/storage/fancy/cigarettes/smokegats
+	name = "\improper smokegats packet"
+	desc = "Let the Radiance fill your lungs"
+	icon_state = "smokegats"
+	spawn_type = /obj/item/clothing/mask/cigarette/smokegats
+
 /obj/item/storage/fancy/cigarettes/cigpack_uplift
 	name = "\improper Uplift Smooth packet"
 	desc = "Your favorite brand, now menthol flavored."

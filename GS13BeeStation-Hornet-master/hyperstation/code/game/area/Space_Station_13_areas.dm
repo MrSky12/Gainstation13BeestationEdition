@@ -3,7 +3,7 @@
 	icon_state = "barber"
 
 /area/kinarisrep
-	name = "Kinaris Representative Office"
+	name = "GATO Representative Office"
 
 /area/crew_quarters/bar/cafe
 	name = "Cafe"

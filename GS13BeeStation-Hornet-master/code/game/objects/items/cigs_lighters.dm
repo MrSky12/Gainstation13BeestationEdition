@@ -354,6 +354,10 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 /obj/item/clothing/mask/cigarette/dromedary
 	desc = "A DromedaryCo brand cigarette."
 
+/obj/item/clothing/mask/cigarette/smokegats
+	desc = "A GATO Corp brand cigarette"
+	list_reagents = list(/datum/reagent/drug/nicotine = 7.5, /datum/reagent/gold = 1)
+
 /obj/item/clothing/mask/cigarette/uplift
 	desc = "An Uplift Smooth brand cigarette."
 	list_reagents = list(/datum/reagent/drug/nicotine = 13, /datum/reagent/consumable/menthol = 5)
