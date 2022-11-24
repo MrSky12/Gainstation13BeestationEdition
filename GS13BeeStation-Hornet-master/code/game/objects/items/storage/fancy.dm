@@ -205,7 +205,7 @@
 
 /obj/item/storage/fancy/cigarettes/smokegats
 	name = "\improper smokegats packet"
-	desc = "Let the Radiance fill your lungs"
+	desc = "Enjoy this new brand of GATO's official cigarettes, now complete with pink, glittering smoke!"
 	icon_state = "smokegats"
 	spawn_type = /obj/item/clothing/mask/cigarette/smokegats
 

@@ -50,14 +50,14 @@
 	//The appearance of the numbers changes with the fat level of the character
 	if (HAS_TRAIT(fatty, TRAIT_BLOB))
 		to_chat(fatty, "<span class='userdanger'><span class='big'>[round(src.lastreading/2000, 0.01)]TONS!!!</span></span>")
-	
+
 	else if (HAS_TRAIT(fatty, TRAIT_IMMOBILE))
 		to_chat(fatty, "<span class='boldannounce'>[src.lastreading]Lbs!</span>")
 
 	else if(HAS_TRAIT(fatty, TRAIT_OBESE) || HAS_TRAIT(fatty, TRAIT_MORBIDLYOBESE))
 		to_chat(fatty, "<span class='alert'>[src.lastreading]Lbs!</span>")
 
-	else 
+	else
 		to_chat(fatty, "<span class='notice'>[src.lastreading]Lbs.</span>")
 
 

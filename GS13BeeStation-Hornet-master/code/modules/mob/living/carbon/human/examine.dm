@@ -222,9 +222,26 @@
 	if(pulledby?.grab_state)
 		msg += "[t_He] [t_is] restrained by [pulledby]'s grip.\n"
 
+	//GS13 fat examine
+	switch(fullness)
+		if(FULLNESS_LEVEL_BLOATED to FULLNESS_LEVEL_BEEG)
+			msg += "[t_He] look[p_s()] like [t_He] ate a bit too much.\n"
+		if(FULLNESS_LEVEL_BEEG to FULLNESS_LEVEL_NOMOREPLZ)
+			msg += "[t_His] stomach looks very round and very full.\n"
+		if(FULLNESS_LEVEL_NOMOREPLZ to INFINITY)
+			msg += "[t_His] stomach has been stretched to enormous proportions.\n"
+
 	if(nutrition < NUTRITION_LEVEL_STARVING - 50)
 		msg += "[t_He] [t_is] severely malnourished.\n"
-	else if(nutrition >= NUTRITION_LEVEL_FAT)
+	if(fatness >= FATNESS_LEVEL_BLOB)
+		msg += "[t_He] [t_is] completely engulfed in rolls upon rolls of flab. [t_His] head is poking out on top of [t_His] body, akin to a marble on top of a hill.\n"
+	else if(fatness >= FATNESS_LEVEL_IMMOBILE)
+		msg += "[t_His] body is buried in an overflowing surplus of adipose, and [t_His] legs are completely buried beneath layers of meaty, obese flesh.\n"
+	else if(fatness >= FATNESS_LEVEL_MORBIDLY_OBESE)
+		msg += "[t_He] [t_is] utterly stuffed with abundant lard, [t_He] doesn't seem to be able to move much.\n"
+	else if(fatness >= FATNESS_LEVEL_OBESE)
+		msg += "[t_He] [t_is] engorged with fat, [t_His] body laden in rolls of fattened flesh.\n"
+	else if(fatness >= FATNESS_LEVEL_FAT)
 		if(user.nutrition < NUTRITION_LEVEL_STARVING - 50)
 			msg += "[t_He] [t_is] plump and delicious looking - Like a fat little piggy. A tasty piggy.\n"
 		else

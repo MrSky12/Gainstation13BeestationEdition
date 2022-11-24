@@ -127,12 +127,16 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 */
 
 //mob traits
+#define TRAIT_FAT				"fat"
+#define TRAIT_OBESE				"obese"
+#define TRAIT_MORBIDLYOBESE		"morbildyobese"
+#define TRAIT_IMMOBILE			"immobile"
+#define TRAIT_BLOB				"blobweight"
 #define TRAIT_BLIND 			"blind"
 #define TRAIT_MUTE				"mute"
 #define TRAIT_EMOTEMUTE			"emotemute"
 #define TRAIT_DEAF				"deaf"
 #define TRAIT_NEARSIGHT			"nearsighted"
-#define TRAIT_FAT				"fat"
 #define TRAIT_HUSK				"husk"
 #define TRAIT_BADDNA			"baddna"
 #define TRAIT_CLUMSY			"clumsy"
