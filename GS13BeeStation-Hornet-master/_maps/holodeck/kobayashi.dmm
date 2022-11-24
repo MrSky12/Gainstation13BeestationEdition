@@ -231,7 +231,7 @@
 	name = "photon torpedo tube"
 	},
 /obj/item/toy/minimeteor{
-	desc = "A primitive long-range weapon, inferior to Nanotrasen's perfected bluespace artillery.";
+	desc = "A primitive long-range weapon, inferior to GATO's perfected bluespace artillery.";
 	icon = 'icons/effects/effects.dmi';
 	icon_state = "impact_laser";
 	name = "photon torpedo"

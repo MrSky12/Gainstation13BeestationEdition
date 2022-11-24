@@ -232,7 +232,7 @@
 
 /obj/item/teleporter
 	name = "syndicate teleporter"
-	desc = "A Syndicate reverse-engineered version of the Nanotrasen portable handheld teleporter. It uses bluespace technology to translocate users, but lacks the advanced safety features of its counterpart. Warranty voided if exposed to an electromagnetic pulse."
+	desc = "A Syndicate reverse-engineered version of the GATO portable handheld teleporter. It uses bluespace technology to translocate users, but lacks the advanced safety features of its counterpart. Warranty voided if exposed to an electromagnetic pulse."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "syndi_tele"
 	item_state = "electronic"

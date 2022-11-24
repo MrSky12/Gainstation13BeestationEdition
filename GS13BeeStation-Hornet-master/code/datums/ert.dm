@@ -13,7 +13,7 @@
 
 /datum/ert/New()
 	if (!polldesc)
-		polldesc = "a Code [code] Nanotrasen Emergency Response Team"
+		polldesc = "a Code [code] GATO Emergency Response Team"
 
 /datum/ert/blue
 	opendoors = FALSE
@@ -52,7 +52,7 @@
 	leader_role = /datum/antagonist/ert/commander/inquisitor
 	rename_team = "Inquisition"
 	mission = "Destroy any traces of paranormal activity aboard the station."
-	polldesc = "a Nanotrasen paranormal response team"
+	polldesc = "a GATO paranormal response team"
 
 /datum/ert/janitor
 	roles = list(/datum/antagonist/ert/janitor, /datum/antagonist/ert/janitor/heavy)
@@ -61,7 +61,7 @@
 	opendoors = FALSE
 	rename_team = "Janitor"
 	mission = "Clean up EVERYTHING."
-	polldesc = "a Nanotrasen Janitorial Response Team"
+	polldesc = "a GATO Janitorial Response Team"
 
 /datum/ert/intern
 	roles = list(/datum/antagonist/ert/intern)
@@ -70,7 +70,7 @@
 	opendoors = FALSE
 	rename_team = "Horde of Interns"
 	mission = "Assist in conflict resolution."
-	polldesc = "an unpaid internship opportunity with Nanotrasen"
+	polldesc = "an unpaid internship opportunity with GATO"
 
 /datum/ert/doomguy
 	roles = list(/datum/antagonist/ert/doomguy)
@@ -79,7 +79,7 @@
 	opendoors = TRUE
 	rename_team = "The Juggernaut"
 	mission = "Send them straight back to Hell."
-	polldesc = "an elite Nanotrasen enhanced supersoldier"
+	polldesc = "an elite GATO enhanced supersoldier"
 
 /datum/ert/clown
 	roles = list(/datum/antagonist/ert/clown)
@@ -97,7 +97,7 @@
 	opendoors = TRUE
 	rename_team = "HONK Squad"
 	mission = "HONK them into submission"
-	polldesc = "an elite Nanotrasen tactical pranking squad"
+	polldesc = "an elite GATO tactical pranking squad"
 	code = "HOOOOOOOOOONK"
 
 /datum/ert/kudzu

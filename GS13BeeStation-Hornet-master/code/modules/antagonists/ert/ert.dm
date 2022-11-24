@@ -196,7 +196,7 @@
 
 	to_chat(owner, "<B><font size=3 color=red>You are the [name].</font></B>")
 
-	var/missiondesc = "Your squad is being sent on a mission to [station_name()] by Nanotrasen's Security Division."
+	var/missiondesc = "Your squad is being sent on a mission to [station_name()] by GATO's Security Division."
 	if(leader) //If Squad Leader
 		missiondesc += " Lead your squad to ensure the completion of the mission. Board the shuttle when your team is ready."
 	else
@@ -228,9 +228,9 @@
 	if(!ert_team)
 		return
 
-	to_chat(owner, "<B><font size=3 color=red>You are the Juggernaut, the latest in Nanotrasen's biologically-enhanced supersoldiers.</font></B>")
+	to_chat(owner, "<B><font size=3 color=red>You are the Juggernaut, the latest in GATO's biologically-enhanced supersoldiers.</font></B>")
 
-	var/missiondesc = "You are being sent on a mission to [station_name()] by the one of the highest ranking Nanotrasen officials around."
+	var/missiondesc = "You are being sent on a mission to [station_name()] by the one of the highest ranking GATO officials around."
 	if(leader) //If Squad Leader
 		missiondesc += " Take stock of your equipment and teammates (if any) and board the transit shuttle when you are ready."
 	else

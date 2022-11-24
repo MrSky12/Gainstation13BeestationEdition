@@ -7040,7 +7040,7 @@
 	},
 /mob/living/simple_animal/chicken/turkey{
 	atmos_requirements = list("min_oxy"=0,"max_oxy"=0,"min_tox"=0,"max_tox"=0,"min_co2"=0,"max_co2"=0,"min_n2"=0,"max_n2"=0);
-	desc = "A veteran of Nanotrasen's Animal Experimentation Program that attempted to replicate the organic space suit that some hostile entities are known to have exhibited, Tom now serves Nanotrasen as the mascot of the Exploration Crew.";
+	desc = "A veteran of GATO's Animal Experimentation Program that attempted to replicate the organic space suit that some hostile entities are known to have exhibited, Tom now serves Nanotrasen as the mascot of the Exploration Crew.";
 	health = 200;
 	maxHealth = 200;
 	melee_damage = 5;
@@ -70663,7 +70663,7 @@
 /obj/effect/landmark/event_spawn,
 /mob/living/simple_animal/bot/medbot{
 	auto_patrol = 1;
-	desc = "A little medical robot, officially part of the Nanotrasen medical inspectorate. He looks somewhat underwhelmed.";
+	desc = "A little medical robot, officially part of the GATO medical inspectorate. He looks somewhat underwhelmed.";
 	name = "Inspector Johnson"
 	},
 /turf/open/floor/plasteel/showroomfloor,

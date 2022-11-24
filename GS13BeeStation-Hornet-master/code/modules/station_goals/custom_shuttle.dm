@@ -4,7 +4,7 @@
 	name = "Custom Shuttle"
 
 /datum/station_goal/custom_shuttle/get_report()
-	return {"Nanotrasen needs a new prototype light cruiser.
+	return {"GATO needs a new prototype light cruiser.
 			 We leave it up to you to decide what the shuttle needs to be an effective platform.
 
 			 You can create a designator in engineering or purchase one at cargo.

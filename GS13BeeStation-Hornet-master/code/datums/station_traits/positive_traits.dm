@@ -79,7 +79,7 @@
 /datum/station_trait/scarves/New()
 	. = ..()
 	report_message = pick(
-		"Nanotrasen is experimenting with seeing if neck warmth improves employee morale.",
+		"GATO is experimenting with seeing if neck warmth improves employee morale.",
 		"After Space Fashion Week, scarves are the hot new accessory.",
 		"Everyone was simultaneously a little bit cold when they packed to go to the station.",
 		"The station is definitely not under attack by neck grappling aliens masquerading as wool. Definitely not.",

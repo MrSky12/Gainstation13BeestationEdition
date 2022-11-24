@@ -122,7 +122,7 @@
 
 /obj/item/clothing/shoes/jackboots
 	name = "jackboots"
-	desc = "Nanotrasen-issue Security combat boots for combat scenarios or combat situations. All combat, all the time."
+	desc = "GATO-issue Security combat boots for combat scenarios or combat situations. All combat, all the time."
 	icon_state = "jackboots"
 	item_state = "jackboots"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
@@ -163,7 +163,7 @@
 
 /obj/item/clothing/shoes/workboots
 	name = "work boots"
-	desc = "Nanotrasen-issue Engineering lace-up work boots for the especially blue-collar."
+	desc = "GATO-issue Engineering lace-up work boots for the especially blue-collar."
 	icon_state = "workboots"
 	item_state = "jackboots"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'

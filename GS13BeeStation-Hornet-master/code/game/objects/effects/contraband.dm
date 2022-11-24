@@ -230,12 +230,12 @@
 
 /obj/structure/sign/poster/contraband/missing_gloves
 	name = "Missing Gloves"
-	desc = "This poster references the uproar that followed Nanotrasen's financial cuts toward insulated-glove purchases."
+	desc = "This poster references the uproar that followed GATO's financial cuts toward insulated-glove purchases."
 	icon_state = "poster9"
 
 /obj/structure/sign/poster/contraband/hacking_guide
 	name = "Hacking Guide"
-	desc = "This poster details the internal workings of the common Nanotrasen airlock. Sadly, it appears out of date."
+	desc = "This poster details the internal workings of the common GATO airlock. Sadly, it appears out of date."
 	icon_state = "poster10"
 
 /obj/structure/sign/poster/contraband/rip_badger
@@ -265,7 +265,7 @@
 
 /obj/structure/sign/poster/contraband/power
 	name = "Power"
-	desc = "A poster that positions the seat of power outside Nanotrasen."
+	desc = "A poster that positions the seat of power outside GATO."
 	icon_state = "poster16"
 
 /obj/structure/sign/poster/contraband/space_cube
@@ -438,8 +438,8 @@
 	icon_state = "poster1_legit"
 
 /obj/structure/sign/poster/official/nanotrasen_logo
-	name = "\improper Nanotrasen logo"
-	desc = "A poster depicting the Nanotrasen logo."
+	name = "\improper GATO logo"
+	desc = "A poster depicting the GATO logo."
 	icon_state = "poster2_legit"
 
 /obj/structure/sign/poster/official/cleanliness
@@ -559,7 +559,7 @@
 
 /obj/structure/sign/poster/official/anniversary_vintage_reprint
 	name = "50th Anniversary Vintage Reprint"
-	desc = "A reprint of a poster from 2505, commemorating the 50th Anniversary of Nanoposters Manufacturing, a subsidiary of Nanotrasen."
+	desc = "A reprint of a poster from 2505, commemorating the 50th Anniversary of Nanoposters Manufacturing, a subsidiary of GATO."
 	icon_state = "poster26_legit"
 
 /obj/structure/sign/poster/official/fruit_bowl
@@ -569,12 +569,12 @@
 
 /obj/structure/sign/poster/official/pda_ad
 	name = "PDA Ad"
-	desc = "A poster advertising the latest PDA from Nanotrasen suppliers."
+	desc = "A poster advertising the latest PDA from GATO suppliers."
 	icon_state = "poster28_legit"
 
 /obj/structure/sign/poster/official/enlist
 	name = "Enlist" // but I thought deathsquad was never acknowledged
-	desc = "Enlist in the Nanotrasen Deathsquadron reserves today!"
+	desc = "Enlist in the GATO Deathsquadron reserves today!"
 	icon_state = "poster29_legit"
 
 /obj/structure/sign/poster/official/nanomichi_ad

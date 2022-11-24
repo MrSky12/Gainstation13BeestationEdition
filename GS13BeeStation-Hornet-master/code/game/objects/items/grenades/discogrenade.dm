@@ -114,7 +114,7 @@
 		M.set_drugginess(5)
 		return
 	if(istype(M.get_item_by_slot(ITEM_SLOT_HEAD), /obj/item/clothing/head/foilhat))
-		to_chat(M, "<span class = 'userdanger'>THOSE GLOW-IN-THE-DARK NANOTRASEN LIGHTBULBS WON'T CORRUPT ME WITH THEIR AGENDA!</span>")
+		to_chat(M, "<span class = 'userdanger'>THOSE GLOW-IN-THE-DARK GATO LIGHTBULBS WON'T CORRUPT ME WITH THEIR AGENDA!</span>")
 		M.emote("scream")
 		return
 

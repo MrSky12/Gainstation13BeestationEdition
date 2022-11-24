@@ -259,7 +259,7 @@
 /datum/map_template/shuttle/emergency/asteroid
 	suffix = "asteroid"
 	name = "Asteroid Station Emergency Shuttle"
-	description = "A respectable mid-sized shuttle that first saw service shuttling Nanotrasen crew to and from their asteroid belt embedded facilities."
+	description = "A respectable mid-sized shuttle that first saw service shuttling GATO crew to and from their asteroid belt embedded facilities."
 	credit_cost = 3000
 
 /datum/map_template/shuttle/emergency/bar
@@ -303,7 +303,7 @@
 /datum/map_template/shuttle/emergency/discoinferno
 	suffix = "discoinferno"
 	name = "Disco Inferno"
-	description = "The glorious results of centuries of plasma research done by Nanotrasen employees. This is the reason why you are here. Get on and dance like you're on fire, burn baby burn!"
+	description = "The glorious results of centuries of plasma research done by GATO employees. This is the reason why you are here. Get on and dance like you're on fire, burn baby burn!"
 	admin_notes = "Flaming hot. The main area has a dance machine as well as plasma floor tiles that will be ignited by players every single time."
 	credit_cost = 10000
 
@@ -341,7 +341,7 @@
 /datum/map_template/shuttle/emergency/shelter
 	suffix = "shelter"
 	name = "BSP Collapsable Emergency Shuttle"
-	description = "A new product by a Nanotrasen subsidary, designed to be quick to construct and employ, with the amenities of a small emergency shuttle, including sleepers. Luckily, the shuttle is indeed deployed faster. Un-luckily, that time is supplemented by construction time, so it won't make the transit any faster."
+	description = "A new product by a GATO subsidary, designed to be quick to construct and employ, with the amenities of a small emergency shuttle, including sleepers. Luckily, the shuttle is indeed deployed faster. Un-luckily, that time is supplemented by construction time, so it won't make the transit any faster."
 	credit_cost = 2500
 
 /datum/map_template/shuttle/emergency/box
@@ -462,7 +462,7 @@
 /datum/map_template/shuttle/emergency/goon
 	suffix = "goon"
 	name = "NES Port"
-	description = "The Nanotrasen Emergency Shuttle Port(NES Port for short) is a shuttle used at other less known Nanotrasen facilities and has a more open inside for larger crowds, but fewer onboard shuttle facilities."
+	description = "The GATO Emergency Shuttle Port(NES Port for short) is a shuttle used at other less known GATO facilities and has a more open inside for larger crowds, but fewer onboard shuttle facilities."
 	credit_cost = 500
 
 /datum/map_template/shuttle/emergency/wabbajack

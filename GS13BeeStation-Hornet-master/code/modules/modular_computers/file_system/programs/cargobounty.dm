@@ -1,6 +1,6 @@
 /datum/computer_file/program/bounty
 	filename = "bounty"
-	filedesc = "Nanotrasen Bounty Hunter"
+	filedesc = "GATO Bounty Hunter"
 	category = PROGRAM_CATEGORY_SUPL
 	program_icon_state = "bounty"
 	extended_desc = "A basic interface for supply personnel to check and claim bounties."

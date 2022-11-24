@@ -159,7 +159,7 @@ GLOBAL_LIST_INIT(clockwork_portals, list())
 	priority_announce("Space-time anomalies detected near the station. Source determined to be a temporal \
 		energy pulse emanating from J1523-215. All crew are to enter [text2ratvar("prep#re %o di%")]\
 		and destroy the [text2ratvar("I'd like to see you try")], which has been determined to be the source of the \
-		pulse to prevent mass damage to Nanotrasen property.", "Anomaly Alert", ANNOUNCER_SPANOMALIES)
+		pulse to prevent mass damage to GATO property.", "Anomaly Alert", ANNOUNCER_SPANOMALIES)
 
 	for(var/i in 1 to 100)
 		var/turf/T = get_random_station_turf()

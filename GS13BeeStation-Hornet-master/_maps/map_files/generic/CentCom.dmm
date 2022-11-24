@@ -1452,7 +1452,7 @@
 "kf" = (
 /obj/structure/table/wood,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to GATO Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -3942,7 +3942,7 @@
 "pa" = (
 /obj/structure/table/wood,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to GATO Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -8555,7 +8555,7 @@
 "yZ" = (
 /obj/structure/table/wood,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to GATO Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -13924,7 +13924,7 @@
 "Kr" = (
 /obj/structure/table/wood,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to GATO Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},

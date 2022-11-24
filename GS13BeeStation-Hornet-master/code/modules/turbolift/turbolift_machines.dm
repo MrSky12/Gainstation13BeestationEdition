@@ -28,13 +28,13 @@ GLOBAL_LIST_EMPTY(turbolifts)
 	if (machine_stat & NOPOWER)
 		to_chat(user, "<span class='warning'>[src] does not respond.</span>")
 	if(!shuttle_id || !floor_id)
-		say("An unexpected error has occured. Please contact a Nanotrasen Turbolift Repair Technician.")
+		say("An unexpected error has occured. Please contact a GATO Turbolift Repair Technician.")
 		return
 
 	var/obj/docking_port/mobile/turbolift/M = SSshuttle.getShuttle(shuttle_id)
 	var/obj/machinery/computer/turbolift/T = M?.turbolift_computer?.resolve()
 	if(!M || !T)
-		say("An unexpected error has occured. Please contact a Nanotrasen Turbolift Repair Technician.")
+		say("An unexpected error has occured. Please contact a GATO Turbolift Repair Technician.")
 		return
 
 	if("[floor_id]" in T.destination_queue)
@@ -42,7 +42,7 @@ GLOBAL_LIST_EMPTY(turbolifts)
 	else if(T.z == src.z)
 		say("The turbolift is already at this deck.")
 	else
-		say("The turbolift will arrive shortly. Thank you for using Nanotrasen Turbolift Services(TM).")
+		say("The turbolift will arrive shortly. Thank you for using GATO Turbolift Services(TM).")
 		T.destination_queue += "[floor_id]"
 		START_PROCESSING(SSmachines, T)
 
@@ -213,7 +213,7 @@ GLOBAL_LIST_EMPTY(turbolifts)
 /obj/machinery/computer/turbolift/proc/move(var/destination_id)
 	var/obj/docking_port/mobile/turbolift/M = SSshuttle.getShuttle(shuttle_id)
 	if(!M)
-		say("An unexpected error has occured. The turbolift is now offline. Please contact a Nanotrasen Turbolift Repair Technician.")
+		say("An unexpected error has occured. The turbolift is now offline. Please contact a GATO Turbolift Repair Technician.")
 		STOP_PROCESSING(SSmachines, src)
 		online = FALSE
 		log_mapping("TURBOLIFT: [src] could not find mobile dock: [shuttle_id] at [AREACOORD(src)]")

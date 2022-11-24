@@ -20,13 +20,13 @@
 
 /obj/item/clothing/under/suit/black
 	name = "black slacks"
-	desc = "A professional set of black slacks and a white dress shirt. Nanotrasen Investigation Bureau approved! Tie and suit coat not included."
+	desc = "A professional set of black slacks and a white dress shirt. GATO Investigation Bureau approved! Tie and suit coat not included."
 	icon_state = "blackslacks"
 	item_state = "blackslacks"
 
 /obj/item/clothing/under/suit/black/skirt
 	name = "black suitskirt"
-	desc = "A professional black suit. Nanotrasen Investigation Bureau approved!"
+	desc = "A professional black suit. GATO Investigation Bureau approved!"
 	icon_state = "blacksuit_skirt"
 	item_state = "bar_suit"
 	body_parts_covered = CHEST|GROIN|ARMS

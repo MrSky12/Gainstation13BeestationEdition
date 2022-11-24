@@ -31,7 +31,7 @@
 #define ACCOUNT_SEC "SEC"
 #define ACCOUNT_SEC_NAME "Defense Budget"
 #define ACCOUNT_VIP "VIP"
-#define ACCOUNT_VIP_NAME "Nanotrasen VIP Expense Account Budget"
+#define ACCOUNT_VIP_NAME "GATO VIP Expense Account Budget"
 
 #define NO_FREEBIES "commies go home"
 

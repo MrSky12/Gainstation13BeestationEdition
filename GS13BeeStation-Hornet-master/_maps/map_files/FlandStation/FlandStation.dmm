@@ -16181,7 +16181,7 @@
 	pixel_x = 7
 	},
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to GATO Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -17339,7 +17339,7 @@
 /obj/structure/table/reinforced,
 /obj/item/clothing/head/welding,
 /obj/item/weldingtool{
-	desc = "A standard edition welder provided by Nanotrasen. However this has been renamed to 'wedding tool' for some reason...";
+	desc = "A standard edition welder provided by GATO. However this has been renamed to 'wedding tool' for some reason...";
 	name = "wedding tool"
 	},
 /obj/machinery/light{
@@ -36788,7 +36788,7 @@
 "isg" = (
 /obj/structure/table/wood,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to GATO Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -42679,7 +42679,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/lattice/catwalk/over,
 /obj/structure/sign/poster/contraband/hacking_guide{
-	desc = "This poster details the internal workings of the common Nanotrasen airlock. Despite it appears out of date, this poster was placed by an alleged Nanotransen official due to some lack of hacking skill to open a door around here.";
+	desc = "This poster details the internal workings of the common GATO airlock. Despite it appears out of date, this poster was placed by an alleged Nanotransen official due to some lack of hacking skill to open a door around here.";
 	pixel_x = -32
 	},
 /turf/open/floor/plating,
@@ -57001,7 +57001,7 @@
 /obj/item/lighter,
 /obj/effect/turf_decal/bot,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to GATO Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -62849,7 +62849,7 @@
 	},
 /obj/item/paper/monitorkey,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to GATO Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -68971,17 +68971,17 @@
 	pixel_x = -22
 	},
 /obj/item/toy/beach_ball{
-	desc = "The simple beach ball is one of Nanotrasen's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Nanotrasen";
-	name = "Nanotrasen-brand beach ball";
+	desc = "The simple beach ball is one of GATO's most popular products. 'Why do we make beach balls? Because we can! (TM)' - GATO";
+	name = "GATO-brand beach ball";
 	pixel_y = 7
 	},
 /obj/item/toy/plush/carpplushie{
 	color = "red";
-	name = "Nanotrasen wildlife department space carp plushie"
+	name = "GATO wildlife department space carp plushie"
 	},
 /obj/item/paicard{
-	desc = "A real Nanotrasen success, these personal AIs provide all of the companionship of an AI without any law related red-tape.";
-	name = "Nanotrasen-brand personal AI device exhibit"
+	desc = "A real GATO success, these personal AIs provide all of the companionship of an AI without any law related red-tape.";
+	name = "GATO-brand personal AI device exhibit"
 	},
 /turf/open/floor/wood,
 /area/bridge/showroom/corporate)
@@ -82171,8 +82171,8 @@
 "tix" = (
 /obj/structure/table/wood,
 /obj/item/storage/secure/briefcase{
-	desc = "A large briefcase with a digital locking system, and the Nanotrasen logo emblazoned on the sides.";
-	name = "Nanotrasen-brand secure briefcase exhibit";
+	desc = "A large briefcase with a digital locking system, and the GATO logo emblazoned on the sides.";
+	name = "GATO-brand secure briefcase exhibit";
 	pixel_y = 2
 	},
 /obj/item/clothing/under/suit/black_really,
@@ -100705,7 +100705,7 @@
 	},
 /obj/structure/table/wood,
 /obj/item/toy/talking/AI{
-	name = "Nanotrasen-brand toy AI";
+	name = "GATO-brand toy AI";
 	pixel_y = 6
 	},
 /turf/open/floor/wood,

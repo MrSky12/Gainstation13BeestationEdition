@@ -1051,14 +1051,14 @@ All effects don't start immediately, but rather get worse over time; the rate is
 
 /datum/reagent/consumable/ethanol/grog
 	name = "Grog"
-	description = "Watered down rum. Nanotrasen approved!"
+	description = "Watered down rum. GATO approved!"
 	color = "#664300" // rgb: 102, 67, 0
 	chem_flags = CHEMICAL_RNG_GENERAL | CHEMICAL_RNG_BOTANY | CHEMICAL_GOAL_BARTENDER_SERVING
 	boozepwr = 1 //Basically nothing
 	taste_description = "a poor excuse for alcohol"
 	glass_icon_state = "grogglass"
 	glass_name = "Grog"
-	glass_desc = "Watered down rum. Nanotrasen approved!"
+	glass_desc = "Watered down rum. GATO approved!"
 
 
 /datum/reagent/consumable/ethanol/aloe
@@ -1111,7 +1111,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 
 /datum/reagent/consumable/ethanol/amasec
 	name = "Amasec"
-	description = "Official drink of the Nanotrasen Gun-Club!"
+	description = "Official drink of the GATO Gun-Club!"
 	color = "#664300" // rgb: 102, 67, 0
 	chem_flags = CHEMICAL_RNG_GENERAL | CHEMICAL_RNG_BOTANY | CHEMICAL_GOAL_BARTENDER_SERVING
 	boozepwr = 35
@@ -1119,7 +1119,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	taste_description = "dark and metallic"
 	glass_icon_state = "amasecglass"
 	glass_name = "Amasec"
-	glass_desc = "Official drink of the Nanotrasen Gun-Club!"
+	glass_desc = "Official drink of the GATO Gun-Club!"
 
 /datum/reagent/consumable/ethanol/changelingsting
 	name = "Changeling Sting"
@@ -1339,7 +1339,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	taste_description = "da bomb"
 	glass_icon_state = "atomicbombglass"
 	glass_name = "Atomic Bomb"
-	glass_desc = "Nanotrasen cannot take legal responsibility for your actions after imbibing."
+	glass_desc = "GATO cannot take legal responsibility for your actions after imbibing."
 
 /datum/reagent/consumable/ethanol/atomicbomb/on_mob_life(mob/living/carbon/M)
 	M.set_drugginess(50)
@@ -1810,7 +1810,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	taste_description = "seduction"
 	glass_icon_state = "between_the_sheets"
 	glass_name = "Between the Sheets"
-	glass_desc = "The only drink that comes with a label reminding you of Nanotrasen's zero-tolerance promiscuity policy."
+	glass_desc = "The only drink that comes with a label reminding you of GATO's zero-tolerance promiscuity policy."
 
 /datum/reagent/consumable/ethanol/between_the_sheets/on_mob_life(mob/living/L)
 	..()

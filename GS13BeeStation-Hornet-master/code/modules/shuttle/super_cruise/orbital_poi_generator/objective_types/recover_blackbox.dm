@@ -42,7 +42,7 @@
 
 /obj/item/blackbox/objective/examine(mob/user)
 	. = ..()
-	. += "<span class='notice'>Use in hand on the <b>bridge</b> of the station to send it to Nanotrasen and complete the objective.</span>"
+	. += "<span class='notice'>Use in hand on the <b>bridge</b> of the station to send it to GATO and complete the objective.</span>"
 
 /datum/component/recoverable
 	var/recovered = FALSE

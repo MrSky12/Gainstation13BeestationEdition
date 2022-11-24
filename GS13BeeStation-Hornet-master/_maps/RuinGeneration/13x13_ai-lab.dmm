@@ -57,8 +57,8 @@
 "iT" = (
 /obj/structure/table/reinforced,
 /obj/item/paicard{
-	desc = "A real Nanotrasen success, these personal AIs provide all of the companionship of an AI without any law related red-tape.";
-	name = "Nanotrasen-brand personal AI device exhibit"
+	desc = "A real GATO success, these personal AIs provide all of the companionship of an AI without any law related red-tape.";
+	name = "GATO-brand personal AI device exhibit"
 	},
 /turf/open/floor/carpet/black,
 /area/ruin/unpowered)

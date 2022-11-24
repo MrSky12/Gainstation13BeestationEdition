@@ -2,7 +2,7 @@
 
 /obj/machinery/newscaster
 	name = "newscaster"
-	desc = "A standard Nanotrasen-licensed newsfeed handler for use in commercial space stations. All the news you absolutely have no use for, in one place!"
+	desc = "A standard GATO-licensed newsfeed handler for use in commercial space stations. All the news you absolutely have no use for, in one place!"
 	icon = 'icons/obj/terminals.dmi'
 	icon_state = "newscaster_off"
 	verb_say = "beeps"
@@ -208,7 +208,7 @@
 	data["channelAuthor"] = current_channel?.author
 
 	if(!current_channel)
-		data["channelAuthor"] = "Nanotrasen Inc"
+		data["channelAuthor"] = "GATO Inc"
 		data["channelDesc"] = "Welcome to Newscaster Net. Interface & News networks Operational."
 		data["channelLocked"] = TRUE
 	else
