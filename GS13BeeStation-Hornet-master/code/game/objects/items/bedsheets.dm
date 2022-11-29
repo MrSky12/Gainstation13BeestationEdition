@@ -129,7 +129,7 @@
 
 /obj/item/bedsheet/captain
 	name = "captain's bedsheet"
-	desc = "It has a Nanotrasen symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern captains."
+	desc = "It has a GATO symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern captains."
 	icon_state = "sheetcaptain"
 	item_state = "sheetcaptain"
 	dream_messages = list("authority", "a golden ID", "sunglasses", "a green disc", "an antique gun", "the captain")
@@ -225,8 +225,8 @@
 	dream_messages = list("a book", "an explosion", "lightning", "a staff", "a skeleton", "a robe", "magic")
 
 /obj/item/bedsheet/nanotrasen
-	name = "\improper Nanotrasen bedsheet"
-	desc = "It has the Nanotrasen logo on it and has an aura of duty."
+	name = "\improper GATO bedsheet"
+	desc = "It has the GATO logo on it and has an aura of duty."
 	icon_state = "sheetNT"
 	item_state = "sheetNT"
 	dream_messages = list("authority", "an ending")
@@ -373,7 +373,7 @@
 	icon_state = "double_sheetcaptain"
 	item_state = "sheetcaptain"
 	dream_messages = list("authority", "a golden ID", "sunglasses", "a green disc", "an antique gun", "the captain")
-	desc = "It has a Nanotrasen symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern captains."
+	desc = "It has a GATO symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern captains."
 
 /obj/item/bedsheet/double/rd
 	name = "double research director's bedsheet"
@@ -459,11 +459,11 @@
 	desc = "A special fabric enchanted with magic so you can have an enchanted night. It even glows!"
 
 /obj/item/bedsheet/double/nanotrasen
-	name = "\improper double Nanotrasen bedsheet"
+	name = "\improper double GATO bedsheet"
 	icon_state = "double_sheetNT"
 	item_state = "sheetNT"
 	dream_messages = list("authority", "an ending")
-	desc = "It has the Nanotrasen logo on it and has an aura of duty."
+	desc = "It has the GATO logo on it and has an aura of duty."
 
 /obj/item/bedsheet/double/ian
 	name = "double Ian's bedsheet"

@@ -6510,7 +6510,7 @@
 /obj/item/folder/blue,
 /obj/item/pen/blue,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to GATO Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -7020,7 +7020,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table,
 /obj/item/phone{
-	desc = "Supposedly a direct line to Nanotrasen Central Command. It's not even plugged in.";
+	desc = "Supposedly a direct line to GATO Central Command. It's not even plugged in.";
 	pixel_x = -3;
 	pixel_y = 3
 	},

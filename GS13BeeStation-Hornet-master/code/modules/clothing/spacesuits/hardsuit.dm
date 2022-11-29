@@ -318,7 +318,7 @@
 	icon_state = "cybersun"
 	name = "Cybersun hardsuit"
 	desc = "A bulky, protective suit designed to protect against the perils facing Cybersun Employed Engineers, Researchers, and more as they head from the safety of \
-		more stable employment to the dangers of Nanotrasen Controlled Deep Space. Designed to get the job done despite on-site hazards in derelicts, laser armor was \
+		more stable employment to the dangers of GATO Controlled Deep Space. Designed to get the job done despite on-site hazards in derelicts, laser armor was \
 		sacrificed in favor of more effective blunt armor plates and radiation shielding."
 	armor = list("melee" = 30, "bullet" = 35, "laser" = 15, "energy" = 15, "bomb" = 60, "bio" = 100, "rad" = 55, "fire" = 30, "acid" = 60, "stamina" = 15)
 	hardsuit_type = "cybersun"

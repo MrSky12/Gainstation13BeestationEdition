@@ -247,7 +247,7 @@ GLOBAL_VAR_INIT(shuttle_docking_jammed, FALSE)
 							shuttleObject.controlling_computer = src
 							say("Shuttle requested.")
 							return
-				say("Docking port in invalid location. Please contact a Nanotrasen technician.")
+				say("Docking port in invalid location. Please contact a GATO technician.")
 		return
 
 	switch(action)

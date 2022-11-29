@@ -84,7 +84,7 @@
 	return TRUE
 
 /obj/item/autosurgeon/cmo
-	name = "nanotrasen medical autosurgeon"
+	name = "GATO medical autosurgeon"
 	desc = "A single use autosurgeon that contains a medical heads-up display augment. A screwdriver can be used to remove it, but implants can't be placed back in."
 	uses = 1
 	starting_organ = list(/obj/item/organ/cyberimp/eyes/hud/medical)

@@ -11,7 +11,7 @@
 
 /obj/item/clothing/under/rank/security/officer
 	name = "security jumpsuit"
-	desc = "A tactical security jumpsuit for officers complete with Nanotrasen belt buckle."
+	desc = "A tactical security jumpsuit for officers complete with GATO belt buckle."
 	icon_state = "rsecurity"
 	item_state = "r_suit"
 	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30, "stamina" = 30)
@@ -22,7 +22,7 @@
 
 /obj/item/clothing/under/rank/security/officer/white
 	name = "white security jumpsuit"
-	desc = "A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood."
+	desc = "A tactical relic of years past before GATO decided it was cheaper to dye the suits red instead of washing out the blood."
 	icon_state = "security"
 	item_state = "gy_suit"
 
@@ -58,7 +58,7 @@
 
 /obj/item/clothing/under/rank/security/warden
 	name = "security suit"
-	desc = "A formal security suit for officers complete with Nanotrasen belt buckle."
+	desc = "A formal security suit for officers complete with GATO belt buckle."
 	icon_state = "rwarden"
 	item_state = "r_suit"
 	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30, "stamina" = 30)
@@ -69,7 +69,7 @@
 
 /obj/item/clothing/under/rank/security/warden/skirt
 	name = "warden's suitskirt"
-	desc = "A formal security suitskirt for officers complete with Nanotrasen belt buckle."
+	desc = "A formal security suitskirt for officers complete with GATO belt buckle."
 	icon_state = "rwarden_skirt"
 	item_state = "r_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
@@ -79,7 +79,7 @@
 
 /obj/item/clothing/under/rank/security/warden/white
 	name = "white security suit"
-	desc = "A formal relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood."
+	desc = "A formal relic of years past before GATO decided it was cheaper to dye the suits red instead of washing out the blood."
 	icon_state = "warden"
 	item_state = "gy_suit"
 
@@ -182,7 +182,7 @@
 
 /obj/item/clothing/under/rank/brig_physician/skirt
 	name = "brig physician's jumpskirt"
-	desc = "A lightly armored jumpskirt worn by Nanotrasen's Asset Protection Medical Corps."
+	desc = "A lightly armored jumpskirt worn by GATO's Asset Protection Medical Corps."
 	icon_state = "brig_phys_skirt"
 	item_state = "labcoat_sec"
 	body_parts_covered = CHEST|GROIN|ARMS

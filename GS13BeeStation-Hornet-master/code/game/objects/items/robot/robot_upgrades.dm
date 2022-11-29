@@ -706,7 +706,7 @@
 
 /obj/item/borg/upgrade/transform/security/action(mob/living/silicon/robot/R, user = usr)
 	if(CONFIG_GET(flag/disable_secborg))
-		to_chat(user, "<span class='warning'>Nanotrasen policy disallows the use of weapons of mass destruction.</span>")
+		to_chat(user, "<span class='warning'>GATO policy disallows the use of weapons of mass destruction.</span>")
 		return FALSE
 	return ..()
 

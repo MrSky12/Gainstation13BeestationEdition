@@ -203,6 +203,12 @@
 	icon_state = "dromedary"
 	spawn_type = /obj/item/clothing/mask/cigarette/dromedary
 
+/obj/item/storage/fancy/cigarettes/smokegats
+	name = "\improper smokegats packet"
+	desc = "Enjoy this new brand of GATO's official cigarettes, now complete with pink, glittering smoke!"
+	icon_state = "smokegats"
+	spawn_type = /obj/item/clothing/mask/cigarette/smokegats
+
 /obj/item/storage/fancy/cigarettes/cigpack_uplift
 	name = "\improper Uplift Smooth packet"
 	desc = "Your favorite brand, now menthol flavored."
@@ -265,7 +271,7 @@
 
 /obj/item/storage/fancy/rollingpapers
 	name = "rolling paper pack"
-	desc = "A pack of Nanotrasen brand rolling papers."
+	desc = "A pack of GATO brand rolling papers."
 	w_class = WEIGHT_CLASS_TINY
 	icon = 'icons/obj/cigarettes.dmi'
 	icon_state = "cig_paper_pack"

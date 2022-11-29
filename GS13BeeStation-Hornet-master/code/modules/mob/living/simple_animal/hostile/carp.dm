@@ -216,7 +216,7 @@
 /mob/living/simple_animal/hostile/carp/lia
 	name = "Lia"
 	real_name = "Lia"
-	desc = "A failed experiment of Nanotrasen to create weaponised carp technology. This less than intimidating carp now serves as the Head of Security's pet."
+	desc = "A failed experiment of GATO to create weaponised carp technology. This less than intimidating carp now serves as the Head of Security's pet."
 	gender = FEMALE
 	speak_emote = list("squeaks")
 	gold_core_spawnable = NO_SPAWN

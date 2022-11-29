@@ -96,6 +96,9 @@
 	var/dizziness = 0//Carbon
 	/// Jitteryness level of the mob
 	var/jitteriness = 0//Carbon
+
+	var/fatness = 0 	//Carbon, GS13 addition
+
 	/// Hunger level of the mob
 	var/nutrition = NUTRITION_LEVEL_START_MIN // randomised in Initialize
 	/// Satiation level of the mob

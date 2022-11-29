@@ -447,6 +447,13 @@
 	chem_flags = CHEMICAL_RNG_GENERAL | CHEMICAL_RNG_FUN | CHEMICAL_GOAL_BOTANIST_HARVEST
 	taste_description = "slime"
 
+/datum/reagent/consumable/cornoil/on_mob_life(mob/living/carbon/M)
+	if(M && !HAS_TRAIT(M, TRAIT_LIPOIFIER_IMMUNE))
+		M.nutrition += 20 * REAGENTS_METABOLISM
+	else
+		M.nutrition += 1
+	..()
+
 /datum/reagent/consumable/cornoil/reaction_turf(turf/open/T, reac_volume)
 	if (!istype(T))
 		return

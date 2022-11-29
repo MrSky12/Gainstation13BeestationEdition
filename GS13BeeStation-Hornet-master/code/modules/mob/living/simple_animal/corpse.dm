@@ -165,7 +165,7 @@
 
 
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier
-	name = "\improper Nanotrasen Private Security Officer"
+	name = "\improper GATO Private Security Officer"
 	id_job = "Private Security Force"
 	id_access = JOB_NAME_SECURITYOFFICER
 	outfit = /datum/outfit/nanotrasensoldiercorpse2
@@ -173,7 +173,7 @@
 	facial_hair_style = "Shaved"
 
 /datum/outfit/nanotrasensoldiercorpse2
-	name = "NT Private Security Officer Corpse"
+	name = "GATO Private Security Officer Corpse"
 	uniform = /obj/item/clothing/under/rank/security/officer
 	suit = /obj/item/clothing/suit/armor/vest
 	shoes = /obj/item/clothing/shoes/combat

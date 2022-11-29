@@ -28,10 +28,14 @@
 
 /mob/living/carbon/Move(NewLoc, direct)
 	. = ..()
-	if(. && !(movement_type & FLOATING)) //floating is easy
+	if(. && mob_has_gravity()) //floating is easy
 		if(HAS_TRAIT(src, TRAIT_NOHUNGER))
-			set_nutrition(NUTRITION_LEVEL_FED - 1)	//just less than feeling vigorous
-		else if(nutrition && stat != DEAD)
-			adjust_nutrition(-(HUNGER_FACTOR/10))
-			if(m_intent == MOVE_INTENT_RUN)
-				adjust_nutrition(-(HUNGER_FACTOR/10))
+			nutrition = NUTRITION_LEVEL_FED - 1	//just less than feeling vigorous
+		else if(nutrition && stat != DEAD) // GS13 : one fourth of the consumed energy comes from fat
+			var/fat_burned = min(HUNGER_FACTOR/40, fatness)
+			var/nutrition_lost_divider = 12
+			if(m_intent == MOVE_INTENT_RUN) // GS13 : running will burn more fat (you'll get more tired tho)
+				fat_burned = min(HUNGER_FACTOR/20, fatness)
+				nutrition_lost_divider = 5
+			nutrition -= (HUNGER_FACTOR/nutrition_lost_divider - fat_burned)
+			fatness -= fat_burned

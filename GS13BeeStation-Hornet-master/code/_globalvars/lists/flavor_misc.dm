@@ -95,6 +95,7 @@ GLOBAL_LIST_INIT(ai_core_display_screens, sortList(list(
 	"Monochrome",
 	"Murica",
 	"Nanotrasen",
+	"GATO",
 	"Not Malf",
 	"Portrait",
 	"President",

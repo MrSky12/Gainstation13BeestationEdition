@@ -1834,7 +1834,7 @@
 
 /datum/reagent/consumable/virus_food/viralbase
 	name = "Experimental Viral Base"
-	description = "Recently discovered by Nanotrasen's top scientists after years of research, this substance can be used as the base for extremely rare and extremely dangerous viruses once exposed to uranium."
+	description = "Recently discovered by GATO's top scientists after years of research, this substance can be used as the base for extremely rare and extremely dangerous viruses once exposed to uranium."
 	color = "#fff0da"
 	chem_flags = CHEMICAL_NOT_SYNTH
 	taste_description = "tears of scientists"

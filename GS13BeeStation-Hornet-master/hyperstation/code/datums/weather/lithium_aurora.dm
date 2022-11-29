@@ -31,7 +31,7 @@
 /datum/weather/lithium_aurora/telegraph()
 	. = ..()
 	ended = FALSE
-	priority_announce("[station_name()]: Lithium peroxide particles are rising in the atmosphere, a natural part of Layenia's atmospheric purification cycle. Their chemical reactions will cause slight shifts in the visible light spectrums. Kinaris Command has approved a short break for all employees to relax and observe this very rare event. Any staff who would like to view these lights for themselves may proceed to the nearest windows or go outside. We hope you enjoy the lights.",
+	priority_announce("[station_name()]: Lithium peroxide particles are rising in the atmosphere, a natural part of Layenia's atmospheric purification cycle. Their chemical reactions will cause slight shifts in the visible light spectrums. GATO Command has approved a short break for all employees to relax and observe this very rare event. Any staff who would like to view these lights for themselves may proceed to the nearest windows or go outside. We hope you enjoy the lights.",
 	sound = 'sound/misc/notice2.ogg',
 	sender_override = "Kinaris Meteorology Division")
 	for(var/V in GLOB.player_list)
@@ -53,7 +53,7 @@
 	ended = TRUE
 	priority_announce("The lithium aurora is now ending. Light conditions will slowly return to normal. When this has concluded, please return to your workplace and continue work as normal. Have a pleasant shift, [station_name()], and thank you for watching with us.",
 		sound = 'sound/misc/notice2.ogg',
-		sender_override = "Kinaris Meteorology Division")
+		sender_override = "GATO Meteorology Division")
 	for(var/S in applicable_areas)
 		fade_to_black(S)
 

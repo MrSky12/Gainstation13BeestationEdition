@@ -64,7 +64,7 @@
 
 /datum/techweb/science	//Global science techweb for RND consoles.
 	id = "SCIENCE"
-	organization = "Nanotrasen"
+	organization = "GATO"
 
 /datum/techweb/Destroy()
 	researched_nodes = null

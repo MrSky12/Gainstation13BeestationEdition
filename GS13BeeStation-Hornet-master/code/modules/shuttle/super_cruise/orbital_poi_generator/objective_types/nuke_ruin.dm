@@ -36,7 +36,7 @@
 
 /obj/item/disk/nuclear/decommission
 	name = "outdated nuclear authentication disk"
-	desc = "An old, worn nuclear authentication disk used in the outdated X-7 nuclear fission explosive. Nanotrasen no longer uses this model of authentication due to its poor security."
+	desc = "An old, worn nuclear authentication disk used in the outdated X-7 nuclear fission explosive. GATO no longer uses this model of authentication due to its poor security."
 	fake = TRUE
 
 /obj/item/disk/nuclear/decommission/ComponentInitialize()

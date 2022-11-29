@@ -760,7 +760,7 @@ SUBSYSTEM_DEF(job)
 	log_job_debug(message)
 
 /obj/item/paper/fluff/spare_id_safe_code
-	name = "Nanotrasen-Approved Spare ID Safe Code"
+	name = "GATO-Approved Spare ID Safe Code"
 	desc = "Proof that you have been approved for Captaincy, with all its glory and all its horror."
 
 /obj/item/paper/fluff/spare_id_safe_code/Initialize(mapload)

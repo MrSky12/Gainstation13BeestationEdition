@@ -3,7 +3,7 @@
 	filedesc = "Nanotrasen Internal Requisition Network (NIRN)"
 	category = PROGRAM_CATEGORY_SUPL
 	program_icon_state = "request"
-	extended_desc = "A request network that utilizes the Nanotrasen Ordering network to purchase supplies using a department budget account."
+	extended_desc = "A request network that utilizes the GATO Ordering network to purchase supplies using a department budget account."
 	requires_ntnet = TRUE
 	usage_flags = PROGRAM_LAPTOP | PROGRAM_TABLET
 	size = 20
